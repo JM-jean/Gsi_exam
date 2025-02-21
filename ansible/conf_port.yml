@@ -1,6 +1,6 @@
 ---
 - name: Install and configure Apache to listen on port 8081
-  hosts: naruto
+  hosts: zo
   become: true
   tasks:
     - name: Install Apache2 (if not already installed)
